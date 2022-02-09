@@ -1,0 +1,40 @@
+html, body {
+	margin: 0;
+	height: 100%;
+	font-family: "Courier New", Courier, monospace;
+	text-decoration: bold;
+}
+
+body{
+	background-image: url("https://github.com/MinxterYT/m1nx/blob/main/Images/background.jpg?raw=true");
+	background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #282b2b;
+  color: white;
+  text-align: center;
+}
+
+.grid{
+	display: grid;
+	place-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+.title{
+	color: white;
+  font-size: 10vh;
+	margin: 0px;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
